@@ -1,7 +1,39 @@
-# house-price-prediction
-Predicting house prices using Linear Regression and Gradient Boosting Regressor
+# House Sales Price Prediction
 
-The tutorial and write up for the code can be found here 
-https://medium.com/towards-data-science/create-a-model-to-predict-house-prices-using-python-d34fe8fad88f
+## Overview
+This project focuses on analyzing house sales data and building predictive models using machine learning. It employs data preprocessing, feature engineering, and various regression techniques to predict house prices.
 
-Thank you
+## Requirements
+To run this project, install the required dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Dependencies
+The following Python libraries are required:
+
+- numpy
+- pandas
+- seaborn
+- matplotlib
+- scikit-learn
+
+Alternatively, install them individually with:
+
+```bash
+pip install numpy pandas seaborn matplotlib scikit-learn
+```
+
+## Usage
+1. Open the Jupyter Notebook (`housesales.ipynb`).
+2. Run the cells sequentially to:
+   - Load and preprocess data.
+   - Perform exploratory data analysis (EDA) using Seaborn and Matplotlib.
+   - Train machine learning models using Scikit-Learn.
+   - Evaluate model performance.
+
+## Files
+- `housesales.ipynb`: The main Jupyter Notebook containing code and analysis.
+- `README.md`: Project documentation.
+
